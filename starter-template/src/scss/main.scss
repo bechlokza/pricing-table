@@ -1,0 +1,12 @@
+@use "abstracts/" as *;
+@use "base/" as *;
+@use "components/" as *;
+@use "layout/" as *;
+@use "utilities/" as *;
+@use "vendor/" as *;
+
+$clr: orange;
+
+body {
+  background-color: $clr;
+}
